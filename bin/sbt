@@ -25,6 +25,7 @@ test -f ~/.sbtconfig && . ~/.sbtconfig
 java -ea                          \
   $SBT_OPTS                       \
   $JAVA_OPTS                      \
+  -Dsbt.global.base=d:\sbt\.sbt -Dsbt.ivy.home=d:\sbt\.ivy2 \
   -Djava.net.preferIPv4Stack=true \
   -XX:+AggressiveOpts             \
   -XX:+UseParNewGC                \

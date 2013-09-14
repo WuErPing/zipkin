@@ -1,4 +1,8 @@
 .idea/
+.project
+.classpath
+.settings
+.cache
 *.iml
 out/
 target/
